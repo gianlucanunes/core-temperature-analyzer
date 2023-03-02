@@ -64,7 +64,7 @@ This excel file will contain all dates and measured temperatures in a more intui
 <br></br>
   
 ***  
-## 5. **Now, you will need to open the file "core-temperautre-analyzer.py" to change the filepaths and directories.**  
+## 5. **Now, you will need to open the file "core-temperature-analyzer.py" to change the filepaths and directories.**  
   
 
 For the temp file, there are some filepaths you will need to change. After each one, there is an example of how it needs to be.  
