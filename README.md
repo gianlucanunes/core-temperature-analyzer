@@ -99,6 +99,9 @@ Basically, replace "CORE_TEMP_FOLDER" with the path to your Core Temp folder.
   
   
   
+***
+> ### **Working with Fahrenheit**  
+  
 If you want to work with Fahrenheit, delete the comment of these 2 lines of code: 
   
 ![Comment1](/images/7.png) 
@@ -113,7 +116,9 @@ And change "mean_temp" in this line to "mean_temp_fahrenheit":
   
   
   
-   
-If you want to work with the brazilian standard, you can comment the american standard and delete the comment from the brazilian standard. 
+***
+> ### **Working with the brazilian standard**  
+  
+If you want to work with the brazilian standard, just comment the american standard and delete the comment from the brazilian standard. 
 
 
