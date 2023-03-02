@@ -27,7 +27,7 @@ of how to set up the program and start using it.
 
 ### Tutorial: how to set up
 ***  
-1. Install the program libraries using pip install.  
+1. **Install the program libraries using pip install.**  
   
 There are a total of 6 libraries which are essential to the program to work properly. Install them using pip install in your terminal.  
   
@@ -35,15 +35,15 @@ There are a total of 6 libraries which are essential to the program to work prop
   
   
 ***  
-2. Install Core Temp in your computer.  
+2. **Install Core Temp in your computer.**  
   
-⚠️ Warning ⚠️ Core Temp must be installed in a folder outside Program Files. 
+⚠️ Warning ⚠️ --> Core Temp must be installed in a folder outside Program Files. 
    
 💡 Tip: install it in your Documents Folder or in your Desktop.  
   
   
 ***  
-3. After the installation, activate the Logging feature.  
+3. **After the installation, activate the Logging feature.**  
   
 ![Logging](/images/2.png)  
   
@@ -51,7 +51,7 @@ There are a total of 6 libraries which are essential to the program to work prop
     
    
 ***  
-4. Create a file in your computer called "temp.xlsx" (without the double quotes).  
+4. **Create a file in your computer called "temp.xlsx" (without the double quotes).**  
   
 ![Temp](/images/3.png)  
   
@@ -59,15 +59,18 @@ There are a total of 6 libraries which are essential to the program to work prop
    
   
 ***  
-5. Now, you will need to open the file "core-temperautre-analyzer.py" to change the filepaths and directories.  
+5. **Now, you will need to open the file "core-temperautre-analyzer.py" to change the filepaths and directories.**  
   
+
 For the temp file, there are some filepaths you will need to change. After each one, there is an example of how it needs to be.  
   
 ![TempDir](/images/4.png)  
   
 Basically, replace "TEMP_FILE_PATH" with your temp.xlsx filepath.  
   
-
+  
+    
+   
 For the Core Temp directory, you will need to do the same, but it will need the directory where Core Temp has been installed (the folder containing the .exe program).  
   
 ![CoreTempDir](/images/5.png)  
@@ -76,15 +79,15 @@ Basically, replace "CORE_TEMP_FOLDER" with the path to your Core Temp folder.
   
   
 ***  
-6. Let Core Temp measure your CPU temperature for some time and confirm it is creating the log files in its folder (.csv files).  
+6. **Let Core Temp measure your CPU temperature for some time and confirm it is creating the log files in its folder (.csv files).**  
   
   
 ***  
-7. Close Core Temp and make sure it is not running in your background. Now, run the Python program and get the results! 
+7. **Close Core Temp and make sure it is not running in your background. Now, run the Python program and get the results!**   
    
-⚠️ Warning ⚠️ Core Temp must be closed and not running in your background every time you run the program.  
+⚠️ Warning ⚠️ --> Core Temp must be closed and not running in your background every time you run the program.  
   
-⚠️ Warning ⚠️ Do not open the temp.xlsx file or the .csv files when running the program.  
+⚠️ Warning ⚠️ --> Do not open the temp.xlsx file or the .csv files when running the program.  
   
 💡 Tip: The core temperature analyzer change the log files names to start with "temperatures_processed" to avoid duplicate measures. After running the program, you can delete those files.  
 
