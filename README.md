@@ -28,100 +28,113 @@ of how to set up the program and start using it.
 ### Tutorial
 ***  
 > 1. **Install the program libraries using pip install.**  
-  
+<br/><br/>
 There are a total of 7 libraries which are essential to the program to work properly. Install them using pip install in your terminal.  
-  
+<br/><br/>
+
 ![Libraries](/images/6.png)  
-  
+<br/><br/>
+<br/><br/>
   
 ***  
 > 2. **Install Core Temp in your computer.**  
-  
+<br/><br/>
 ⚠️ Warning ⚠️ --> Core Temp must be installed in a folder outside Program Files. 
-   
+<br/><br/>
 💡 Tip: install it in your Documents Folder or in your Desktop.  
-  
+<br/><br/>
+<br/><br/>
   
 ***  
 > 3. **After the installation, activate the Logging feature.**  
-  
+<br/><br/>
+
 ![Logging](/images/2.png)  
-  
+<br/><br/>
+<br/><br/>
 💡 Tip: You can configure the logging time. Go to Options > Settings > General. I personally recommend 60 seconds.  
-    
-   
+<br/><br/>
+<br/><br/>
+  
 ***  
 > 4. **Create a file in your computer called "temp.xlsx" (without the double quotes).**  
-  
+<br/><br/>
 This excel file will contain all dates and measured temperatures in a more intuitive spreadsheet.  
-  
+<br/><br/>
+
 ![Temp](/images/3.png)  
-  
+<br/><br/>
+<br/><br/>
 💡 Tip: You can choose any name. I will use "temp" as an example.     
-   
+<br/><br/>
+<br/><br/>
   
 ***  
 > 5. **Now, you will need to open the file "core-temperautre-analyzer.py" to change the filepaths and directories.**  
-  
-
+<br/><br/>
+<br/><br/>
 For the temp file, there are some filepaths you will need to change. After each one, there is an example of how it needs to be.  
+<br/><br/>
   
 ![TempDir](/images/4.png)  
-  
+<br/><br/>
+<br/><br/>
 Basically, replace "TEMP_FILE_PATH" with your temp.xlsx filepath.  
-  
-  
-    
-   
+<br/><br/>
+<br/><br/>
+<br/><br/>
 For the Core Temp directory, you will need to do the same, but it will need the directory where Core Temp has been installed (the folder containing the Core Temp.exe program).  
-  
+<br/><br/>
+
 ![CoreTempDir](/images/5.png)  
-  
+<br/><br/>
+<br/><br/>
 Basically, replace "CORE_TEMP_FOLDER" with the path to your Core Temp folder.  
-  
-  
+<br/><br/>
+<br/><br/> 
+   
 ***  
 > 6. **Let Core Temp measure your CPU temperature for some time and confirm it is creating the log files in its folder (.csv files).**  
-  
+<br/><br/>
+<br/><br/>
   
 ***  
 > 7. **Close Core Temp and make sure it is not running in your background. Now, run the Python program and get the results!**   
-   
+<br/><br/>
 ⚠️ Warning ⚠️ --> Core Temp must be closed and not running in your background every time you run the program.  
-  
+<br/><br/>
 ⚠️ Warning ⚠️ --> Do not open the temp.xlsx file or the .csv files when running the program.  
-  
-
-
+<br/><br/>
+<br/><br/>
+<br/><br/>
 💡 Tip: The core temperature analyzer change the log files names to start with "temperatures_processed" to avoid duplicate measures. After running the program, you can delete those files.   
-  
+<br/><br/>
 💡 Tip: You can convert this python program to a .exe file using PyInstaller.  
-  
-  
+<br/><br/>
+<br/><br/>
   
 ***
 > ### **Working with Fahrenheit**  
-  
+<br/><br/>
 If you want to work with Fahrenheit, delete the comment of these 2 lines of code: 
   
 ![Comment1](/images/7.png) 
-   
+<br/><br/>
+<br/><br/>
 Comment this line of code:    
   
 ![Comment2](/images/8.png)   
-   
+<br/><br/>
+<br/><br/>
 And change "mean_temp" in this line to "mean_temp_fahrenheit":  
   
 ![Fahrenheit](/images/9.png)  
+<br/><br/>
+<br/><br/>
   
-  
-<br/><br/>
-<br/><br/>
-<br/><br/>
-<br/><br/>
 ***
 > ### **Working with the brazilian standard**  
-  
+<br/><br/>
 If you want to work with the brazilian standard, just comment the american standard and delete the comment from the brazilian standard. 
 
 
