@@ -140,15 +140,17 @@ for column in last_5_columns:
     mean_temp = round(np.mean(temperatures), 2)
 
     # Convert it to Fahrenheit
-    mean_temp_fahrenheit = (mean_temp * 9/5) + 32
-    mean_temps.append(mean_temp_fahrenheit)
+    ## mean_temp_fahrenheit = (mean_temp * 9/5) + 32
+    ## mean_temps.append(mean_temp_fahrenheit)
+
+    mean_temps.append(mean_temp)
 
     # Print the results of each day
-    print(f"Day {date}: average temperature of {round(np.mean(mean_temp_fahrenheit), 2)} ºF")
+    print(f"Day {date}: average temperature of {round(np.mean(mean_temp), 2)} ºC")
 
 # Print the final result
 final_mean_temps = round(np.mean(mean_temps), 2)
-print(f"\nFinal Analysis: the average core temperature from the last 5 days is {final_mean_temps} ºF")
+print(f"\nFinal Analysis: the average core temperature from the last 5 days has been {final_mean_temps} ºC")
 
 
 """
@@ -181,7 +183,7 @@ for column in last_5_columns:
     print(f"Dia {date}: temperatura média de {mean_temp} ºC")
 
 final_mean_temp = round(np.mean(mean_temps), 2)
-print(f"\nFinal Analysis: the average core temperature from the last 5 days is {final_mean_temp} ºC")
+print(f"\nAnálise Final: a temperatura média dos últimos dias foi de {final_mean_temp} ºC")
 time.sleep(1)
 """
 

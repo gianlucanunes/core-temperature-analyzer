@@ -91,5 +91,29 @@ Basically, replace "CORE_TEMP_FOLDER" with the path to your Core Temp folder.
   
 ⚠️ Warning ⚠️ --> Do not open the temp.xlsx file or the .csv files when running the program.  
   
-💡 Tip: The core temperature analyzer change the log files names to start with "temperatures_processed" to avoid duplicate measures. After running the program, you can delete those files.  
+
+
+💡 Tip: The core temperature analyzer change the log files names to start with "temperatures_processed" to avoid duplicate measures. After running the program, you can delete those files.   
+  
+💡 Tip: You can convert this python program to a .exe file using PyInstaller.  
+  
+  
+  
+If you want to work with Fahrenheit, delete the comment of these 2 lines of code: 
+  
+![Comment1](/images/7.png) 
+   
+Comment this line of code:    
+  
+![Comment2](/images/8.png)   
+   
+And change "mean_temp" in this line to "mean_temp_fahrenheit":  
+  
+![Fahrenheit](/images/9.png)  
+  
+  
+  
+   
+If you want to work with the brazilian standard, you can comment the american standard and delete the comment from the brazilian standard. 
+
 
