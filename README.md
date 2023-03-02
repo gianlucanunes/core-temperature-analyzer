@@ -4,7 +4,7 @@
 > Monitoring your CPU temperature in order to predict overheating issues.
 >
 >
-> ![Result](/images/1.png)
+> ![Result](/images/0.png)
 > 
 >
 
