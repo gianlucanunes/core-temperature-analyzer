@@ -1,10 +1,16 @@
+img[src*='#center'] { 
+    display: block;
+    margin: auto;
+}
 > # 🧊 **Core Temperature Analyzer** 🔥
 >
-> <div style="text-align: center;">
+> 
 > Monitoring your CPU temperature in order to predict overheating issues.
 >
-> ![Result](/images/1.png)
-> </div>
+>
+> ![Result](/images/1.png#center)
+> 
+>
 
 ### Overview
 ***
