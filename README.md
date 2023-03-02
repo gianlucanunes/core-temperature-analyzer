@@ -25,7 +25,7 @@ of how to set up the program and start using it.
 
 
 
-### Tutorial: how to set up
+### Tutorial
 ***  
 > 1. **Install the program libraries using pip install.**  
   
@@ -53,6 +53,8 @@ There are a total of 7 libraries which are essential to the program to work prop
 ***  
 > 4. **Create a file in your computer called "temp.xlsx" (without the double quotes).**  
   
+This excel file will contain all dates and measured temperatures in a more intuitive screen.  
+  
 ![Temp](/images/3.png)  
   
 💡 Tip: You can choose any name. I will use "temp" as an example.     
@@ -71,7 +73,7 @@ Basically, replace "TEMP_FILE_PATH" with your temp.xlsx filepath.
   
     
    
-For the Core Temp directory, you will need to do the same, but it will need the directory where Core Temp has been installed (the folder containing the .exe program).  
+For the Core Temp directory, you will need to do the same, but it will need the directory where Core Temp has been installed (the folder containing the Core Temp.exe program).  
   
 ![CoreTempDir](/images/5.png)  
   
