@@ -115,7 +115,10 @@ And change "mean_temp" in this line to "mean_temp_fahrenheit":
 ![Fahrenheit](/images/9.png)  
   
   
-  
+<br/><br/>
+<br/><br/>
+<br/><br/>
+<br/><br/>
 ***
 > ### **Working with the brazilian standard**  
   
