@@ -53,7 +53,7 @@ There are a total of 7 libraries which are essential to the program to work prop
 ***  
 > 4. **Create a file in your computer called "temp.xlsx" (without the double quotes).**  
   
-This excel file will contain all dates and measured temperatures in a more intuitive screen.  
+This excel file will contain all dates and measured temperatures in a more intuitive spreadsheet.  
   
 ![Temp](/images/3.png)  
   
