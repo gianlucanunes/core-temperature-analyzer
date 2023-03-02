@@ -29,7 +29,7 @@ of how to set up the program and start using it.
 ***  
 > 1. **Install the program libraries using pip install.**  
   
-There are a total of 7 libraries which are essential to the program to work properly. Install them using pip install in your terminal.  
+There are a total of 7 libraries which are essential to the python program to work properly. Install them using pip install in your terminal.  
   
 ![Libraries](/images/6.png)  
   
@@ -100,7 +100,7 @@ Basically, replace "CORE_TEMP_FOLDER" with the path to your Core Temp folder.
   
   
 ***
-> ### **Working with Fahrenheit**  
+### **Working with Fahrenheit** 🌡️     
   
 If you want to work with Fahrenheit, delete the comment of these 2 lines of code: 
   
@@ -117,7 +117,7 @@ And change "mean_temp" in this line to "mean_temp_fahrenheit":
   
   
 ***
-> ### **Working with the brazilian standard**  
+### **Working with the brazilian standard** 🇧🇷    
   
 If you want to work with the brazilian standard, just comment the american standard and delete the comment from the brazilian standard. 
 
