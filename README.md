@@ -1,13 +1,12 @@
-> # 🧊 **Core Temperature Analyzer** 🔥
->
-> 
-> Monitoring your CPU temperature in order to predict overheating issues.
->
->
-> ![Result](/images/0.png)
-> 
->
+# 🧊 **Core Temperature Analyzer** 🔥
+<br></br>
+Monitoring your CPU temperature in order to predict overheating issues.
+<br></br>
 
+![Result](/images/0.png)
+<br></br>
+<br></br>
+  
 ### Overview
 ***
 Hello! I created this project when I was struggling to analyze my CPU temperature. I was using Core Temp to measure it, but I did not know about its logging feature. Once I
