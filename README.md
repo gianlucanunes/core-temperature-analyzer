@@ -117,7 +117,7 @@ And change "mean_temp" in this line to "mean_temp_fahrenheit":
   
   
 ***
-### **Working with the brazilian standard** 🇧🇷    
+### **Working with the brazilian standard** 🔵 🟢 🟡     
   
 If you want to work with the brazilian standard, just comment the american standard and delete the comment from the brazilian standard. 
 
