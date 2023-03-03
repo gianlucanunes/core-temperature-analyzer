@@ -130,7 +130,7 @@ If you want to work with the brazilian standard, just comment the american stand
 Hope you enjoy it!  
 <br></br>
 
-🎫 [My Linkedin](https://linkedin.com/in/gianluca-nunes)
+🎫 [My Linkedin](https://linkedin.com/in/gianluca-nunes)  
 ✉️ Contact E-Mail: contact.gianlucan@gmail.com 
 
 
