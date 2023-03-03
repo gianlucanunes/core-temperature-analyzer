@@ -131,6 +131,6 @@ Hope you enjoy it!
 <br></br>
 
 🎫 [My Linkedin](https://linkedin.com/in/gianluca-nunes)  
-✉️ Contact E-Mail: contact.gianlucan@gmail.com 
+✉️ Contact email: contact.gianlucan@gmail.com 
 
 
